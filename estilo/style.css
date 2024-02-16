@@ -1,0 +1,35 @@
+@charset "utf-8";
+/*
+#c5ebd6
+#83elad
+#3ddc84
+#2fa866
+#la5c37
+#063dle
+*/
+
+:root{
+   --cor0: #c5ebd6;
+    --cor1: #71be94;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #086d35;
+    --cor5: #032e16;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'bebas neue', cursive;
+    --fonte-android: 'android', cursive;
+
+}
+body{
+    background-color: #c5ebd6;
+    font-family: var(--fonte-padrao);
+
+}
+header > h1{
+    color: var(--cor3);
+    font-family: var(--fonte-destaque);
+}
+main h1{
+color: var(--cor5);
+}
